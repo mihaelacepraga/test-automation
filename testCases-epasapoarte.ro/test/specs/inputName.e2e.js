@@ -1,4 +1,4 @@
-describe('Open home page and add an input value', () => {
+describe('Set an input value for last name', () => {
 
     let inputName;
 
