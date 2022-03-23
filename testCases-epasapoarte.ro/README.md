@@ -46,10 +46,10 @@
     4. Verify if appear validation message "Minim 2 caractere.", when add just a letter;
     5. Verify if appear validation message "Minim 2 caractere.Numai litere.", when add an  other character than letters;
     6. Verify if appear validation message "Numai litere.", when add in input name any others characters than letters;
-    7. Check if input value is "Mihaela";
+    7. Check if input value is "Andreea";
 #### Expected result:
      User should be able to access https://www.epasapoarte.ro/, 
-     to find input "Prenume" and add value "Mihaela".
+     to find input "Prenume" and add value "Andreea".
      
 #### Test Data: 
      - https://www.epasapoarte.ro/;

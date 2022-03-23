@@ -37,7 +37,6 @@ describe('Set the value for first name', () => {
         await expect(validationMessage).toBeDisplayed()
         await expect(validationMessage).toHaveText('Minim 2 caractere.Numai litere.')
         await inputLastName.clearValue()
-        await browser.pause(5000)
     });
 
     it('Should have validation message "Numai litere.", when add in input name any others characters than letters', async() => {
@@ -48,10 +47,10 @@ describe('Set the value for first name', () => {
         await inputLastName.clearValue()
     });
 
-    // it('Should have input value "Cepraga" and ', async() => {
-    //     await inputName.setValue('Cepraga')
-    //     await expect(inputName).toHaveAttr('ng-reflect-model', 'Cepraga')
-      
-    // });
+    it('Should have input value "Andreea"', async() => {
+        await inputLastName.setValue('Andreea')
+        await expect(inputLastName).toHaveAttr('ng-reflect-model','Andreea')
+        await browser.pause(6000)
+    });
 
 });
