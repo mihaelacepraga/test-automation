@@ -51,6 +51,6 @@ describe('Set the value for first name', () => {
         await inputLastName.setValue('Andreea')
         await expect(inputLastName).toHaveAttr('ng-reflect-model','Andreea')
         await browser.pause(6000)
-    });
+    }); 
 
 });
