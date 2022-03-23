@@ -31,13 +31,14 @@ describe('Set the value for first name', () => {
         await inputLastName.clearValue()
     });
 
-    // it('Should have validation message "Minim 2 caractere.Numai litere.", when add an other character than letters', async() => {
-    //     await inputName.setValue('!')
-    //     let validationMessage = await $('.validation')
-    //     await expect(validationMessage).toBeDisplayed()
-    //     await expect(validationMessage).toHaveText('Minim 2 caractere.Numai litere.')
-    //     await inputName.clearValue()
-    // });
+    it('Should have validation message "Minim 2 caractere.Numai litere.", when add an other character than letters', async() => {
+        await inputLastName.setValue('=')
+        let validationMessage = await $('.validation')
+        await expect(validationMessage).toBeDisplayed()
+        await expect(validationMessage).toHaveText('Minim 2 caractere.Numai litere.')
+        await inputLastName.clearValue()
+        await browser.pause(5000)
+    });
 
     // it('Should have validation message "Numai litere.", when add in input name any others characters than letters', async() => {
     //     await inputName.setValue('Ma3')
