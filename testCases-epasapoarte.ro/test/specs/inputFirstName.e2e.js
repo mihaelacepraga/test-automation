@@ -40,13 +40,13 @@ describe('Set the value for first name', () => {
         await browser.pause(5000)
     });
 
-    // it('Should have validation message "Numai litere.", when add in input name any others characters than letters', async() => {
-    //     await inputName.setValue('Ma3')
-    //     let validationMessage = await $('//*[@id="forma"]/div/div[1]/div[1]/div[1]/div[2]/small')
-    //     await expect(validationMessage).toBeDisplayed()
-    //     await expect(validationMessage).toHaveText('Numai litere.')
-    //     await inputName.clearValue()
-    // });
+    it('Should have validation message "Numai litere.", when add in input name any others characters than letters', async() => {
+        await inputLastName.setValue('Ramo5')
+        let validationMessage = await $('//*[@id="forma"]/div/div[1]/div[1]/div[1]/div[3]/small')
+        await expect(validationMessage).toBeDisplayed()
+        await expect(validationMessage).toHaveText('Numai litere.')
+        await inputLastName.clearValue()
+    });
 
     // it('Should have input value "Cepraga" and ', async() => {
     //     await inputName.setValue('Cepraga')
