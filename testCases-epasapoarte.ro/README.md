@@ -35,3 +35,24 @@
      - input value "Cepraga";
 #### Status:
     Done
+
+## 3. Test Input lastName [code]( "TestCase Nr.3")
+#### Description:
+      Open home page and check if input "Prenume" are existing and it working properly.
+#### Steps to reproduce:
+    1. Go to https://www.epasapoarte.ro/;
+    2. Check if input "Prenume" are existing and click on it;
+    3. Verify if appear validation message "Este obligatoriu.",when the input "Prenume" lost focus;
+    4. Verify if appear validation message "Minim 2 caractere.", when add just a letter;
+    5. Verify if appear validation message "Minim 2 caractere.Numai litere.", when add an  other character than letters;
+    6. Verify if appear validation message "Numai litere.", when add in input name any others characters than letters;
+    7. Check if input value is "Mihaela";
+#### Expected result:
+     User should be able to access https://www.epasapoarte.ro/, 
+     to find input "Prenume" and add value "Mihaela".
+     
+#### Test Data: 
+     - https://www.epasapoarte.ro/;
+     
+#### Status:
+   New
