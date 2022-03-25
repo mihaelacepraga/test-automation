@@ -36,7 +36,7 @@
 #### Status:
     Done
 
-## 3. Test Input lastName [code]( "TestCase Nr.3")
+## 3. Test Input lastName [code](https://github.com/mihaelacepraga/test-automation/blob/ePasapoarte/testCases-epasapoarte.ro/test/specs/inputFirstName.e2e.js "TestCase Nr.3")
 #### Description:
       Open home page and check if input "Prenume" are existing and it working properly.
 #### Steps to reproduce:
@@ -55,4 +55,25 @@
      - https://www.epasapoarte.ro/;
      
 #### Status:
-   New
+   Done
+   
+## 4. Test Input phoneNumber [code](https://github.com/mihaelacepraga/test-automation/blob/ePasapoarte/testCases-epasapoarte.ro/test/specs/inputPhoneNumber.e2e.js "TestCase Nr.4")
+#### Description:
+      Open home page and check if input "Telefon" are existing and it working properly.
+#### Steps to reproduce:
+    1. Go to https://www.epasapoarte.ro/;
+    2. Check if input "Telefon" are existing and click on it;
+    3. Verify if input is disabled ;
+    4. Verify if user can open page "Protectia Datelor", and check checkbox "Protectia date";
+    5. Verify if appear validation message "Numai cifre . si -.", when add an other character than numbers;
+    6. Add a phone number valid and check if it is "0724871231";
+#### Expected result:
+     User should be able to access https://www.epasapoarte.ro/, 
+     to find input "Telefon" and add value "0724871231".
+     
+#### Test Data: 
+     - https://www.epasapoarte.ro/;
+     - phoneNumber: 0724871231;
+     
+#### Status:
+     Done
