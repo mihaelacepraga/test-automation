@@ -21,6 +21,7 @@ describe('Open page and add Phone Number', () => {
         await browser.back();
         let checkReadProtDate = await $('#protdat')
         checkReadProtDate.click()
+           await expect(checkReadProtDate).toBeChecked()
     });
 
     it('Should have a validation message', async() => {
@@ -34,7 +35,7 @@ describe('Open page and add Phone Number', () => {
     });
     it('Should add a phone number valid', async() => {
         await inputPhoneNumber.setValue('0724871231')
-        await expect(inputPhoneNumber).toHaveAttr('ng-reflect-model', '0724871231')
+        await expect(inputPhoneNumber).toHaveValue('0724871231')
     
     });
 
