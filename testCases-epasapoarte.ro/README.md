@@ -77,3 +77,32 @@
      
 #### Status:
      Done
+
+     #### Test Data: 
+     - https://www.epasapoarte.ro/;
+     
+#### Status:
+   Done
+   
+## 5. Test InputEmail [code]( "TestCase Nr.5")
+#### Description:
+      Open home page and check if input "Email" are existing and it working properly.
+#### Steps to reproduce:
+    1. Go to https://www.epasapoarte.ro/;
+    2. Check if input "Email1" are existing and click on it;
+    3. Verify if user have validation message "Este obligatoriu", when input Email is empty.
+    4. Verify if appear validation message "Format email invalid", when add others characters than "[ăâîşșţțŞȘŢȚĂÂÎáéíóöőúüűŐÚŰÁÉÜÓÖÍA-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$";
+    5. Add an input value "mihaelacepraga@gmail.com" and check if exist an input whith it;
+    6. Check if input "Email2" are existing and click on it;
+    7. Verify if appear validation message "Este obligatoriu.Nu coincide cu anteriorul.',  when input Email is empty.
+    8. Veryfy if appear validation message "Nu coincide cu anteriorul.Format email invalid, when user add other email than "email1".
+    9. Add an value "mihaelacepraga@gmail.com" and check if coincides with the previous one;
+#### Expected result:
+     User should be able to access https://www.epasapoarte.ro/, 
+     to find input "Email1" and add value "mihaelacepraga@gmail.com", then to find input "Email2"and set the same value "mihaelacepraga@gmail.com".
+#### Test Data: 
+     - https://www.epasapoarte.ro/;
+     - email1: "mihaelacepraga@gmail.com";
+     - email2: "mihaelacepraga@gmail.com";
+#### Status:
+    Failed
