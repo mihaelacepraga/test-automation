@@ -42,7 +42,7 @@ describe('Set an input value for email and confirm it', () => {
 
     it('Should have input value "mihaelacepraga@gmail.com"', async() => {
         await inputEmail1.setValue('mihaelacepraga@gmail.com');
-        await expect(inputEmail1).toHaveAttr('ng-reflect-model', 'mihaelacepraga@gmail.com');
+        await expect(inputEmail1).toHaveValue('mihaelacepraga@gmail.com');
     });
 
     it('Should detect if input "Email2" are existing', async() => {
@@ -71,9 +71,6 @@ describe('Set an input value for email and confirm it', () => {
 
     it('Should have input value "mihaelacepraga@gmail.com"', async() => {
         await inputEmail2.setValue('mihaelacepraga@gmail.com');
-       await expect(inputEmail2).toHaveValueContaining('mihaelacepraga@gmail.com');
-      
+        await expect(inputEmail2).toHaveValue('mihaelacepraga@gmail.com');
     });
-
-
 });
