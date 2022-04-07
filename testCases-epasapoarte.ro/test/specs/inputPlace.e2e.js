@@ -1,7 +1,8 @@
 describe('Select the localitie', () => {
-    
+
 let inputLoc;
 let chooseLoc;
+let numberPers;
 
     it('Should have the correct page title', async() => {
         await browser.url('/');
@@ -53,6 +54,20 @@ let chooseLoc;
         chooseLoc = await $('#showlocatia');
         await expect(chooseLoc).toHaveText('Iasi');
     });
+     
+    it('Check if the user can select one person', async () => {
+        numberPers = await $$('#myTab');
+        await expect(numberPers).toHaveChildren(4);
+        let selectNrPer = await $('//*[@id="myTab"]/label[1]/input');
+        await expect(selectNrPer).toHaveValue('1');
+        await expect(selectNrPer).toBeEnabled();
+    });
    
+    it('Verify if can select date', async () => {
+        let inputDate = await $('#showdata');
+        inputDate.click();
+        await expect(inputDate).toHaveText('Alege data si ora ...');
+        
+    });
     
 });
