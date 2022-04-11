@@ -13,6 +13,7 @@ const locationNumber = 44;
 const numberOfLeters = 15;
 const positionLeterI = 7;
 const appointmentHour = ' 15:30 ';
+let missingAppointmentMessage = 'Nu mai sunt locuri disponibile.';
 
 
     it('Should have the correct page title', async() => {
@@ -74,14 +75,26 @@ const appointmentHour = ' 15:30 ';
         await expect(selectNrPer).toBeEnabled();
     });
    
-    it('Verify how many mounth is displayed and choose mounth "Iulie"', async () => {
+    it('Verify how many mounth is displayed and choose the first', async () => {
 
          let inputDate = await $('#nav-tab').$$('a');
-         await expect(inputDate).toBeElementsArrayOfSize(inputDate.length); 
+         await expect(inputDate).toBeElementsArrayOfSize(inputDate.length);
 
-         console.log("Count of mounth ",inputDate.length); 
-        let selectMounth = await inputDate[0];
-         await expect(selectMounth).toHaveAttr('id', 'iul-tab');
+         if (inputDate.length > 0) {
+             
+             await expect(inputDate[0]).toBeSelected();
+             console.log("Count of mounth ",inputDate.length); 
+             await browser.pause(4000);
+
+         }
+         else {
+              
+            missingAppointmentMessage = await $('//*[@id="collapsedata"]/div/div/div/div[1]');
+            await expect(missingAppointmentMessage).toHaveText('Nu mai sunt locuri disponibile.');
+            await browser.pause(4000)
+            console.log("Message- ",'Nu mai sunt locuri disponibile.'); 
+         }
+
 
         });
 
