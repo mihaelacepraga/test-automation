@@ -6,13 +6,13 @@ let inputLoc;
 let chooseLoc;
 let twoLoc;
 let numberPers;
-let nrOfDays;
-let listDays;
-let avaibleMounth;
+// let nrOfDays;
+// let listDays;
+// let avaibleMounth;
 const locationNumber = 44;
 const numberOfLeters = 15;
 const positionLeterI = 7;
-const appointmentHour = ' 15:30 ';
+// const appointmentHour = ' 15:30 ';
 let missingAppointmentMessage = 'Nu mai sunt locuri disponibile.';
 
 
@@ -77,25 +77,44 @@ let missingAppointmentMessage = 'Nu mai sunt locuri disponibile.';
    
     it('Verify how many mounth is displayed and choose the first', async () => {
 
-         let inputDate = await $('#nav-tab').$$('a');
-         await expect(inputDate).toBeElementsArrayOfSize(inputDate.length);
-
-         if (inputDate.length > 0) {
-             
-             await expect(inputDate[0]).toBeSelected();
-             console.log("Count of mounth ",inputDate.length); 
-             await browser.pause(4000);
-
+        
+        let inputDate = await $('#nav-tab').$$('a');
+        if (inputDate.length > 0) {
+            await expect(inputDate[0]).toBeClickable()
+            inputDate[0].click();
+            console.log(await inputDate[0].getText());
          }
          else {
-              
             missingAppointmentMessage = await $('//*[@id="collapsedata"]/div/div/div/div[1]');
             await expect(missingAppointmentMessage).toHaveText('Nu mai sunt locuri disponibile.');
-            await browser.pause(4000)
+            await browser.pause(2000)
             console.log("Message- ",'Nu mai sunt locuri disponibile.'); 
          }
 
 
+        });
+
+        it('select first day', async() => {
+            let alldays = await $('.days').$$('div');
+            await expect(alldays[0]).toBeExisting();
+            await expect(alldays[0]).toBeClickable();
+            alldays[0].click();
+            console.log('The first day displayed is ======>',await alldays[0].getText());  
+        
+            
+        });
+
+        it('Select last avaible hour', async() => {
+
+            const hoursAvaible = await $('//*[@id="chooseora"]/div[2]').$$('div');
+            const lastHourAvailable = hoursAvaible[hoursAvaible.length - 1];
+            await expect(lastHourAvailable).toBeExisting();
+            await expect(lastHourAvailable).toBeClickable();
+            await browser.pause(4000); 
+            lastHourAvailable.click();
+            await browser.pause(4000);
+            console.log('The hour selected is', await lastHourAvailable.getText());
+           
         });
 
 });
