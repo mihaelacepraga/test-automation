@@ -92,15 +92,24 @@ let missingAppointmentMessage = 'Nu mai sunt locuri disponibile.';
             console.log('The first day displayed is ======>',await alldays[0].getText());  
         });
 
-        it('Select last available hour', async() => {
+        it('Choose last available hour', async() => {
             const hoursAvailable = await $('//*[@id="chooseora"]/div[2]').$$('div');
             const lastHourAvailable = hoursAvailable[hoursAvailable.length - 1];
             await expect(lastHourAvailable).toBeExisting();
             await expect(lastHourAvailable).toBeClickable();
             lastHourAvailable.click();
             await browser.pause(4000);
-            console.log('The hour selected is', await lastHourAvailable.getText());
+            console.log('The hour choosed is', await lastHourAvailable.getText());
            
+        });
+
+
+        it('Verify if exist button "Alege" and you can it select', async() => {
+            let btnSelectTime = await $('#alegora');
+            await expect(btnSelectTime).toHaveTextContaining('ALEGE');
+            await expect(btnSelectTime).toBeClickable();
+            // await browser.saveScreenshot('/home/mihaela/Desktop/test-automation/testCases-epasapoarte.ro/img.scren/screenshot1.png');
+            await btnSelectTime.click();
         });
 
 });

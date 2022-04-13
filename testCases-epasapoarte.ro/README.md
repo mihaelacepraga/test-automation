@@ -129,7 +129,7 @@
 
 ## 7. Test Select the localion and the time [code](https://github.com/mihaelacepraga/test-automation/blob/ePasapoarte/testCases-epasapoarte.ro/test/specs/inputPlace.e2e.js  "TestCase Nr.7")
 #### Description:
-      Open home page and check if the input location exist and it is working properly.
+      Open home page and check if the input location exist and it is working properly, and user can select an available hour for appointment .
 #### Steps to reproduce:
     1. Go to https://www.epasapoarte.ro/;
     2. Check if user can find the input location;
@@ -141,12 +141,12 @@
     8. The user can select one person from the list;
     9. Check how many months is displayed and choose the first one, otherwise you may see the message "Nu mai sunt locuri disponibile.";
     10. Select first available day if it exist;
-    11. Select last available hour from the shown list;
+    11. Choose last available hour from the shown list;
+    12. Verify if exist button "Alege" and select it;
 
 
 #### Expected result:
-     User should be able to access https://www.epasapoarte.ro/, 
-     to find the input location and can select city "Iasi", can choose the first available month, day and select the last available time.
+     User should be able to access https://www.epasapoarte.ro/,to find the input location and can select city "Iasi",can choose the first available month, day and select the last available time.
 #### Test Data: 
      - https://www.epasapoarte.ro/;
      - Select the option "pasaport simplu electronic";
