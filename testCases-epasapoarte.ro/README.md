@@ -162,3 +162,47 @@
 #### Status:
      Done
 
+
+## 8. Smooke Test [code](https://github.com/mihaelacepraga/test-automation/blob/ePasapoarte/testCases-epasapoarte.ro/test/specs/smookeTest.e2e.js "TestCase Nr.8")
+#### Description:
+      Open home page and check if the input location exist and it is working properly, and verify that the user can complete the appointment form to obtain a simple passport in the desired location.
+#### Steps to reproduce:
+    1. Go to https://www.epasapoarte.ro/;
+    2. Check if exist the button "REZERVA" and verify if it is not clickable, when the user does`t add all credentials;
+    3. Verify if exist value "Abc" in input-"Nume" ;
+    4. Verify if exist value "Clm" in input-"Prenume";
+    5. Verify if exist a valid phone number;
+    6. Check if there is value "abcdf@gmail.mom" in input-"Email1 and Email2";
+    7. Verify if user can find and select "pasaport simplu electronic";
+    8. Verify if is displayed "Alege locatia...";
+    9. Check if is existing a list of leters and can select "I";
+    10. Check if there is 2 locations whith leter "I";
+    11. Verify if is selected city "Iasi";
+    12. Check if the user can select one person from the list;
+    13. Check how many months is displayed and choose the first one, otherwise you may see the message "Nu mai sunt locuri disponibile.;
+    14. Select first available day and last available hour;
+    15. Verify if exist button "Alege" and you can it select;
+    16.Find the button "Rezerva", and verify if it is clickable,when user add the correct credentials;
+
+
+#### Expected result:
+     User should be able to access https://www.epasapoarte.ro/,and can complete the appointment form to obtain a simple passport in the desired location.
+#### Test Data: 
+     - https://www.epasapoarte.ro/;
+     - input name "Abc";
+     - input firstname "Clm";
+     - phone number "987676";
+     - email1:"abcdf@gmail.mom";
+     - email2:"abcdf@gmail.mom";
+     - Select the option "pasaport simplu electronic";
+     - Location`s Numbers = 44;
+     - Numbers Leters = 15;
+     - Position Leter "I" = 7;
+     - Selected city "Iasi";
+     - selected persons from the list ---> 1;
+     - Selected month from the available list---> the first;
+     - Selected day from the available list--->the first;
+     - Selected available hour from the shown list--> the last;
+#### Status:
+     Done
+
