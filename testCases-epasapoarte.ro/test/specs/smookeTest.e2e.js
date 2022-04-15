@@ -38,21 +38,21 @@ describe('Smooke Test', () => {
     });
  
 
-    it('Should have input value "Abc" and ', async() => {
+    it('Should have value "Abc" in input-"Nume" ', async() => {
         inputName = await $('[name="Nume"]');
         await inputName.setValue('Abc');
         await expect(inputName).toHaveValue('Abc');
     
     });
 
-    it('Should have input value "Clm"', async() => {
+    it('Should have value "Clm" in input-"Prenume" ', async() => {
         inputFirstName = await $('[name="Prenume"]');
         await inputFirstName.setValue('Clm');
         await expect(inputFirstName).toHaveValue('Clm');
         await browser.pause(4000);
     });
 
-    it('Should add a phone number valid', async() => {
+    it('Should add a valid phone number', async() => {
         inputPhoneNumber = await $('#telefon');
         checkReadProtDate = await $('#protdat');
         await checkReadProtDate.click();
@@ -62,7 +62,7 @@ describe('Smooke Test', () => {
     });
 
     
-    it('Should have input value "abcdf@gmail.mom"', async() => {
+    it('Should have value "abcdf@gmail.mom" in input-"Email1 and Email2"', async() => {
         inputEmail1 = await $('#email1');
         await inputEmail1.setValue('abcdf@gmail.mom');
         await expect(inputEmail1).toHaveValue('abcdf@gmail.mom');
