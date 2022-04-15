@@ -56,6 +56,7 @@ let missingAppointmentMessage = 'Nu mai sunt locuri disponibile.';
         await expect(locIasi).toHaveTextContaining(' Bd. Primaverii, nr.36, Iasi');
         let chooseIasi = await $('//*[@id="collapseloc"]/div/div/div/div/div[2]/div[2]/button');
         chooseIasi.click();
+        chooseLoc = await $('#showlocatia');
         await expect(chooseLoc).toHaveText('Iasi');
     });
     
@@ -79,7 +80,6 @@ let missingAppointmentMessage = 'Nu mai sunt locuri disponibile.';
          else {
             missingAppointmentMessage = await $('//*[@id="collapsedata"]/div/div/div/div[1]');
             await expect(missingAppointmentMessage).toHaveText('Nu mai sunt locuri disponibile.');
-            await browser.pause(2000);
             console.log("Message- ",'Nu mai sunt locuri disponibile.'); 
          }
         });
@@ -98,7 +98,6 @@ let missingAppointmentMessage = 'Nu mai sunt locuri disponibile.';
             await expect(lastHourAvailable).toBeExisting();
             await expect(lastHourAvailable).toBeClickable();
             lastHourAvailable.click();
-            await browser.pause(4000);
             console.log('The hour choosed is', await lastHourAvailable.getText());
            
         });
@@ -108,8 +107,9 @@ let missingAppointmentMessage = 'Nu mai sunt locuri disponibile.';
             let btnSelectTime = await $('#alegora');
             await expect(btnSelectTime).toHaveTextContaining('ALEGE');
             await expect(btnSelectTime).toBeClickable();
-            // await browser.saveScreenshot('/home/mihaela/Desktop/test-automation/testCases-epasapoarte.ro/img.scren/screenshot1.png');
             await btnSelectTime.click();
+            await browser.saveScreenshot('/home/mihaela/Desktop/test-automation/testCases-epasapoarte.ro/img.scren/screenshot1.png');
+            await browser.pause(6000);
         });
 
 });
