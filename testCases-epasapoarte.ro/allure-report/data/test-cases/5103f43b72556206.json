@@ -1,0 +1,62 @@
+{
+  "uid" : "5103f43b72556206",
+  "name" : "Select first available day",
+  "fullName" : "Select the location and time.Select first available day",
+  "historyId" : "ba2921edf2d9e4a64d6f3c48b4570d3f",
+  "time" : {
+    "start" : 1650363744037,
+    "stop" : 1650363744651,
+    "duration" : 614
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testClass",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select first available day"
+  }, {
+    "name" : "package",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5103f43b72556206.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

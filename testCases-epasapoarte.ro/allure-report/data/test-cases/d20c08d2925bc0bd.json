@@ -1,0 +1,62 @@
+{
+  "uid" : "d20c08d2925bc0bd",
+  "name" : "Should access page \"epasapoarte.ro\" ",
+  "fullName" : "Smooke Test.Should access page \"epasapoarte.ro\" ",
+  "historyId" : "7d3cda67f2891935d13626c5467a9d34",
+  "time" : {
+    "start" : 1650363776040,
+    "stop" : 1650363786906,
+    "duration" : 10866
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should access page \"epasapoarte.ro\" "
+  }, {
+    "name" : "package",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d20c08d2925bc0bd.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

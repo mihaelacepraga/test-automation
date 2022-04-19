@@ -1,0 +1,62 @@
+{
+  "uid" : "3f76f83ad185d6e",
+  "name" : "Find the button \"Rezerva\", and verify if it is not clickable,when the user does`t add all credentials",
+  "fullName" : "Smooke Test.Find the button \"Rezerva\", and verify if it is not clickable,when the user does`t add all credentials",
+  "historyId" : "6de975e4bf2ab92d7c6a40e03814413c",
+  "time" : {
+    "start" : 1650363786907,
+    "stop" : 1650363789393,
+    "duration" : 2486
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Find the button \"Rezerva\", and verify if it is not clickable,when the user does`t add all credentials"
+  }, {
+    "name" : "package",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f76f83ad185d6e.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

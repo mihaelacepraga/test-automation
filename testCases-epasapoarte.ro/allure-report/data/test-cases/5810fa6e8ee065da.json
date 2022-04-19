@@ -1,0 +1,62 @@
+{
+  "uid" : "5810fa6e8ee065da",
+  "name" : "Should have a validation message",
+  "fullName" : "Open page and add Phone Number.Should have a validation message",
+  "historyId" : "f4021f1431284ff9f5fab0b7691a74dd",
+  "time" : {
+    "start" : 1650363720228,
+    "stop" : 1650363721409,
+    "duration" : 1181
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "testClass",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have a validation message"
+  }, {
+    "name" : "package",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5810fa6e8ee065da.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

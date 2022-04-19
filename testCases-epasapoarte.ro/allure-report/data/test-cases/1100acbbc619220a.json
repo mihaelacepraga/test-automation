@@ -1,0 +1,70 @@
+{
+  "uid" : "1100acbbc619220a",
+  "name" : "Should have input value \"mihaelacepraga@gmail.com\"",
+  "fullName" : "Set an input value for email and confirm it.Should have input value \"mihaelacepraga@gmail.com\"",
+  "historyId" : "c661e41c84ef0caf2e4fa47f180cfaec",
+  "time" : {
+    "start" : 1650363661231,
+    "stop" : 1650363661832,
+    "duration" : 601
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have input value \"mihaelacepraga@gmail.com\""
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "60d5d07dc5a044a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363658816,
+        "stop" : 1650363659730,
+        "duration" : 914
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1100acbbc619220a.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

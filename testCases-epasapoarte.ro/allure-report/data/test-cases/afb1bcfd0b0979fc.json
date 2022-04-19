@@ -1,0 +1,62 @@
+{
+  "uid" : "afb1bcfd0b0979fc",
+  "name" : "Should have the correct page title",
+  "fullName" : "Set an input value for name.Should have the correct page title",
+  "historyId" : "d362c240d3cbeaa6f0eeb9e6d711f102",
+  "time" : {
+    "start" : 1650363687708,
+    "stop" : 1650363698136,
+    "duration" : 10428
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have the correct page title"
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afb1bcfd0b0979fc.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

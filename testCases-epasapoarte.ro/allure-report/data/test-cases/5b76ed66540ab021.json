@@ -1,0 +1,62 @@
+{
+  "uid" : "5b76ed66540ab021",
+  "name" : "Verify if exist button \"Alege\" and you can it select",
+  "fullName" : "Smooke Test.Verify if exist button \"Alege\" and you can it select",
+  "historyId" : "ce6713d8acbd1e29cf02000a28d8cde7",
+  "time" : {
+    "start" : 1650363807796,
+    "stop" : 1650363808309,
+    "duration" : 513
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify if exist button \"Alege\" and you can it select"
+  }, {
+    "name" : "package",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b76ed66540ab021.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

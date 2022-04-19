@@ -1,0 +1,68 @@
+{
+  "uid" : "813dea5ba5fb82a0",
+  "name" : "Should have validation message \"Format email invalid.\", when I add input \"..........@...a\"",
+  "fullName" : "Set an input value for email and confirm it.Should have validation message \"Format email invalid.\", when I add input \"..........@...a\"",
+  "historyId" : "bf958c2ab83014f4a7a1d2e0f34e4336",
+  "time" : {
+    "start" : 1650363648030,
+    "stop" : 1650363658816,
+    "duration" : 10786
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//*[@id=\"forma\"]/div/div[1]/div[1]/div[2]/div[2]/small`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+  "statusTrace" : "Error: Expect $(`//*[@id=\"forma\"]/div/div[1]/div[1]/div[2]/div[2]/small`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (/home/mihaela/Desktop/test-automation/testCases-epasapoarte.ro/test/specs/inputEmail.e2e.js:37:41)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have validation message \"Format email invalid.\", when I add input \"..........@...a\""
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "813dea5ba5fb82a0.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

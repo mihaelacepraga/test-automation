@@ -1,0 +1,62 @@
+{
+  "uid" : "d0c3b4ef8134c1c4",
+  "name" : "Should find and select \"pasaport simplu electronic\"",
+  "fullName" : "Select the type of document.Should find and select \"pasaport simplu electronic\"",
+  "historyId" : "8b1781df20dc2b820a89a4a43fa950fd",
+  "time" : {
+    "start" : 1650363769929,
+    "stop" : 1650363770317,
+    "duration" : 388
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Select the type of document"
+  }, {
+    "name" : "testClass",
+    "value" : "Select the type of document"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should find and select \"pasaport simplu electronic\""
+  }, {
+    "name" : "package",
+    "value" : "Select the type of document"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0c3b4ef8134c1c4.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

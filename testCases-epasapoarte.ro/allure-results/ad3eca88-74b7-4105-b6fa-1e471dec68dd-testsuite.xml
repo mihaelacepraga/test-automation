@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650363706526' stop='1650363722208'>
+    <name>Open page and add Phone Number</name>
+    <title>Open page and add Phone Number</title>
+    <test-cases>
+        <test-case start='1650363706528' status='passed' stop='1650363717257'>
+            <name>Should have the correct page title</name>
+            <title>Should have the correct page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363717283' status='passed' stop='1650363717751'>
+            <name>should have an input phone number and verify if it is disabled </name>
+            <title>should have an input phone number and verify if it is disabled </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363717752' status='passed' stop='1650363720227'>
+            <name>should check checkbox "Protectia date"</name>
+            <title>should check checkbox "Protectia date"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363720228' status='passed' stop='1650363721409'>
+            <name>Should have a validation message</name>
+            <title>Should have a validation message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363721410' status='passed' stop='1650363722205'>
+            <name>Should add a phone number valid</name>
+            <title>Should add a phone number valid</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

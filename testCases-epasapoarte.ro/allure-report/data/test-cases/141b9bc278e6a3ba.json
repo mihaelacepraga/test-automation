@@ -1,0 +1,62 @@
+{
+  "uid" : "141b9bc278e6a3ba",
+  "name" : "Should have validation message \"Este obligatoriu.\",when the input \"Nume\" lost focus.",
+  "fullName" : "Set an input value for name.Should have validation message \"Este obligatoriu.\",when the input \"Nume\" lost focus.",
+  "historyId" : "eb2c6969059a02b3f2e061d4aa3b09bf",
+  "time" : {
+    "start" : 1650363698412,
+    "stop" : 1650363699206,
+    "duration" : 794
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have validation message \"Este obligatoriu.\",when the input \"Nume\" lost focus."
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "141b9bc278e6a3ba.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

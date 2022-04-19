@@ -1,0 +1,62 @@
+{
+  "uid" : "c923de2c2355cb15",
+  "name" : "Check if the user can select one person from the list",
+  "fullName" : "Select the location and time.Check if the user can select one person from the list",
+  "historyId" : "2115cbab72a84addbc1c67cca2fb6641",
+  "time" : {
+    "start" : 1650363742503,
+    "stop" : 1650363743236,
+    "duration" : 733
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testClass",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check if the user can select one person from the list"
+  }, {
+    "name" : "package",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c923de2c2355cb15.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "62d8844a9353ffc6",
+  "name" : "Verify if is displayed \"Alege locatia...\"",
+  "fullName" : "Smooke Test.Verify if is displayed \"Alege locatia...\"",
+  "historyId" : "ec702cc212b7546b845d8faa4fe3d8a0",
+  "time" : {
+    "start" : 1650363802762,
+    "stop" : 1650363802951,
+    "duration" : 189
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify if is displayed \"Alege locatia...\""
+  }, {
+    "name" : "package",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62d8844a9353ffc6.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "69f6fad2e9dcd426",
+  "name" : "Should detect the select \"Tipul de document\" and click on it ",
+  "fullName" : "Select the type of document.Should detect the select \"Tipul de document\" and click on it ",
+  "historyId" : "f9aef9609d627f5368bc5198271a5832",
+  "time" : {
+    "start" : 1650363768898,
+    "stop" : 1650363769522,
+    "duration" : 624
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Select the type of document"
+  }, {
+    "name" : "testClass",
+    "value" : "Select the type of document"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should detect the select \"Tipul de document\" and click on it "
+  }, {
+    "name" : "package",
+    "value" : "Select the type of document"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69f6fad2e9dcd426.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

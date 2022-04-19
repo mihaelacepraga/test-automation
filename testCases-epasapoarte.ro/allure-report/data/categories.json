@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`//*[@id=\"forma\"]/div/div[1]/div[1]/div[2]/div[2]/small`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "children" : [ {
+        "name" : "Should have validation message \"Format email invalid.\", when I add input \"..........@...a\"",
+        "uid" : "813dea5ba5fb82a0",
+        "parentUid" : "8f15695847357e195b82b682e8b0d684",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650363648030,
+          "stop" : 1650363658816,
+          "duration" : 10786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-99.0.4844.82" ]
+      } ],
+      "uid" : "8f15695847357e195b82b682e8b0d684"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

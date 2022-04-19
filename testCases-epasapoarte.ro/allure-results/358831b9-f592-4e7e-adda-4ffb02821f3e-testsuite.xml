@@ -1,0 +1,159 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650363635242' stop='1650363661835'>
+    <name>Set an input value for email and confirm it</name>
+    <title>Set an input value for email and confirm it</title>
+    <test-cases>
+        <test-case start='1650363635243' status='passed' stop='1650363646199'>
+            <name>Should have the correct page title</name>
+            <title>Should have the correct page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363646200' status='passed' stop='1650363646462'>
+            <name>Should detect if input "Email1" are existing</name>
+            <title>Should detect if input "Email1" are existing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363646466' status='passed' stop='1650363647383'>
+            <name>Should have validation message "Este obligatoriu.</name>
+            <title>Should have validation message "Este obligatoriu.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363647384' status='passed' stop='1650363648030'>
+            <name>Should have validation message "Format email invalid.</name>
+            <title>Should have validation message "Format email invalid.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363648030' status='failed' stop='1650363658816'>
+            <name>Should have validation message "Format email invalid.", when I add input "..........@...a"</name>
+            <title>Should have validation message "Format email invalid.", when I add input "..........@...a"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//*[@id="forma"]/div/div[1]/div[1]/div[2]/div[2]/small`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`//*[@id="forma"]/div/div[1]/div[1]/div[2]/div[2]/small`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (/home/mihaela/Desktop/test-automation/testCases-epasapoarte.ro/test/specs/inputEmail.e2e.js:37:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650363658816' status='passed' stop='1650363659730'>
+            <name>Should have input value "mihaelacepraga@gmail.com"</name>
+            <title>Should have input value "mihaelacepraga@gmail.com"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363659731' status='passed' stop='1650363659916'>
+            <name>Should detect if input "Email2" are existing</name>
+            <title>Should detect if input "Email2" are existing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363659930' status='passed' stop='1650363660744'>
+            <name>Should have validation message "Este obligatoriu.Nu coincide cu anteriorul.</name>
+            <title>Should have validation message "Este obligatoriu.Nu coincide cu anteriorul.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363660744' status='passed' stop='1650363661231'>
+            <name>Should have validation message "Nu coincide cu anteriorul.Format email invalid.</name>
+            <title>Should have validation message "Nu coincide cu anteriorul.Format email invalid.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363661231' status='passed' stop='1650363661832'>
+            <name>Should have input value "mihaelacepraga@gmail.com"</name>
+            <title>Should have input value "mihaelacepraga@gmail.com"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

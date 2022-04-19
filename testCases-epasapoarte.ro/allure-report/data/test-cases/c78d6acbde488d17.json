@@ -1,0 +1,62 @@
+{
+  "uid" : "c78d6acbde488d17",
+  "name" : "Check if there is 2 locations whith leter \"I\"",
+  "fullName" : "Select the location and time.Check if there is 2 locations whith leter \"I\"",
+  "historyId" : "12515a16817d2e8d732f18135f7304fa",
+  "time" : {
+    "start" : 1650363741466,
+    "stop" : 1650363741619,
+    "duration" : 153
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testClass",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check if there is 2 locations whith leter \"I\""
+  }, {
+    "name" : "package",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c78d6acbde488d17.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

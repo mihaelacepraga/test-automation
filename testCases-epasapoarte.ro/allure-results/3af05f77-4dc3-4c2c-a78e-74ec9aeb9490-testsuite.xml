@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650363617107' stop='1650363628015'>
+    <name>Open home page and check if it has correct title</name>
+    <title>Open home page and check if it has correct title</title>
+    <test-cases>
+        <test-case start='1650363617108' status='passed' stop='1650363627937'>
+            <name>Should have the correct page title</name>
+            <title>Should have the correct page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,62 @@
+{
+  "uid" : "23a1aade24a2fbc5",
+  "name" : "Should have input value \"Andreea\"",
+  "fullName" : "Set the value for first name.Should have input value \"Andreea\"",
+  "historyId" : "85b0ed5d0d13ad18c3da1ae0e10a3c87",
+  "time" : {
+    "start" : 1650363681890,
+    "stop" : 1650363682266,
+    "duration" : 376
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Set the value for first name"
+  }, {
+    "name" : "testClass",
+    "value" : "Set the value for first name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have input value \"Andreea\""
+  }, {
+    "name" : "package",
+    "value" : "Set the value for first name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23a1aade24a2fbc5.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

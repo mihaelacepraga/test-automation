@@ -1,0 +1,62 @@
+{
+  "uid" : "9b62154befe9db01",
+  "name" : "Check how many months is displayed and choose the first one, otherwise you may see the message \"Nu mai sunt locuri disponibile.\"",
+  "fullName" : "Smooke Test.Check how many months is displayed and choose the first one, otherwise you may see the message \"Nu mai sunt locuri disponibile.\"",
+  "historyId" : "651131c1186dc1d3d498f1e579bd353b",
+  "time" : {
+    "start" : 1650363804790,
+    "stop" : 1650363806146,
+    "duration" : 1356
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check how many months is displayed and choose the first one, otherwise you may see the message \"Nu mai sunt locuri disponibile.\""
+  }, {
+    "name" : "package",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b62154befe9db01.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

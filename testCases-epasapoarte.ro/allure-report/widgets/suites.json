@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "996523b9c603db25f5285fa8ebddbfcf",
+    "name" : "Set an input value for email and confirm it",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "882cc6b7146214a167f7a1e6c0ca3207",
+    "name" : "Smooke Test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+    "name" : "Select the location and time",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "77eeb7367e96c3cab28a642ea9707e42",
+    "name" : "Set the value for first name",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "b18f422296a15793b2c6395b36fab4e4",
+    "name" : "Set an input value for name",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "505c892547909993f337bac22c249c2a",
+    "name" : "Open page and add Phone Number",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "e208212b2e78044bf0630609d184790e",
+    "name" : "Select the type of document",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "2685a67308b3115f1140ae317c5b6403",
+    "name" : "Open home page and check if it has correct title",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

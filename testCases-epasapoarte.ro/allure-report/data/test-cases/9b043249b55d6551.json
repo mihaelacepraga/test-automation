@@ -1,0 +1,62 @@
+{
+  "uid" : "9b043249b55d6551",
+  "name" : "Should have the correct page title",
+  "fullName" : "Set an input value for email and confirm it.Should have the correct page title",
+  "historyId" : "f5c6f4b0d3c36ab846e1e78f90c3a3cd",
+  "time" : {
+    "start" : 1650363635243,
+    "stop" : 1650363646199,
+    "duration" : 10956
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have the correct page title"
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b043249b55d6551.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

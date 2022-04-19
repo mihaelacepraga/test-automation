@@ -1,0 +1,1108 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Open home page and check if it has correct title",
+    "children" : [ {
+      "name" : "Should have the correct page title",
+      "uid" : "bba9163c4e93bb34",
+      "parentUid" : "2685a67308b3115f1140ae317c5b6403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363617108,
+        "stop" : 1650363627937,
+        "duration" : 10829
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "2685a67308b3115f1140ae317c5b6403"
+  }, {
+    "name" : "Set an input value for email and confirm it",
+    "children" : [ {
+      "name" : "Should have the correct page title",
+      "uid" : "9b043249b55d6551",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363635243,
+        "stop" : 1650363646199,
+        "duration" : 10956
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should detect if input \"Email1\" are existing",
+      "uid" : "46f4832b757e2f22",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363646200,
+        "stop" : 1650363646462,
+        "duration" : 262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Este obligatoriu.",
+      "uid" : "afa12201384795d2",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363646466,
+        "stop" : 1650363647383,
+        "duration" : 917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Format email invalid.",
+      "uid" : "3c415ac63aeef544",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363647384,
+        "stop" : 1650363648030,
+        "duration" : 646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Format email invalid.\", when I add input \"..........@...a\"",
+      "uid" : "813dea5ba5fb82a0",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "failed",
+      "time" : {
+        "start" : 1650363648030,
+        "stop" : 1650363658816,
+        "duration" : 10786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should detect if input \"Email2\" are existing",
+      "uid" : "76ee6bdeede582d1",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363659731,
+        "stop" : 1650363659916,
+        "duration" : 185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Este obligatoriu.Nu coincide cu anteriorul.",
+      "uid" : "9a97d8e11bceb81c",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363659930,
+        "stop" : 1650363660744,
+        "duration" : 814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Nu coincide cu anteriorul.Format email invalid.",
+      "uid" : "4a0c761c34b62760",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363660744,
+        "stop" : 1650363661231,
+        "duration" : 487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have input value \"mihaelacepraga@gmail.com\"",
+      "uid" : "1100acbbc619220a",
+      "parentUid" : "996523b9c603db25f5285fa8ebddbfcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363661231,
+        "stop" : 1650363661832,
+        "duration" : 601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "996523b9c603db25f5285fa8ebddbfcf"
+  }, {
+    "name" : "Set the value for first name",
+    "children" : [ {
+      "name" : "Should have the correct page title",
+      "uid" : "8e4ff8f6605bbaca",
+      "parentUid" : "77eeb7367e96c3cab28a642ea9707e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363667913,
+        "stop" : 1650363678803,
+        "duration" : 10890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should detect if input \"Prenume\" are existing",
+      "uid" : "12c7c9b1b9dbab1e",
+      "parentUid" : "77eeb7367e96c3cab28a642ea9707e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363678805,
+        "stop" : 1650363678998,
+        "duration" : 193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Este obligatoriu.\",when the input \"Prenume\" lost focus.",
+      "uid" : "985296b94c667a36",
+      "parentUid" : "77eeb7367e96c3cab28a642ea9707e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363678998,
+        "stop" : 1650363679816,
+        "duration" : 818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Minim 2 caractere.\", when add just a letter",
+      "uid" : "782a906e8c6407a1",
+      "parentUid" : "77eeb7367e96c3cab28a642ea9707e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363679816,
+        "stop" : 1650363680458,
+        "duration" : 642
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Minim 2 caractere.Numai litere.\", when add an other character than letters",
+      "uid" : "1f63dccdba4d154a",
+      "parentUid" : "77eeb7367e96c3cab28a642ea9707e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363680459,
+        "stop" : 1650363681122,
+        "duration" : 663
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Numai litere.\", when add in input name any others characters than letters",
+      "uid" : "6a1adc271ce255e4",
+      "parentUid" : "77eeb7367e96c3cab28a642ea9707e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363681127,
+        "stop" : 1650363681890,
+        "duration" : 763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have input value \"Andreea\"",
+      "uid" : "23a1aade24a2fbc5",
+      "parentUid" : "77eeb7367e96c3cab28a642ea9707e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363681890,
+        "stop" : 1650363682266,
+        "duration" : 376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "77eeb7367e96c3cab28a642ea9707e42"
+  }, {
+    "name" : "Set an input value for name",
+    "children" : [ {
+      "name" : "Should have the correct page title",
+      "uid" : "afb1bcfd0b0979fc",
+      "parentUid" : "b18f422296a15793b2c6395b36fab4e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363687708,
+        "stop" : 1650363698136,
+        "duration" : 10428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should detect if input \"Nume\" are existing",
+      "uid" : "a1eb9f4ea07e6091",
+      "parentUid" : "b18f422296a15793b2c6395b36fab4e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363698138,
+        "stop" : 1650363698411,
+        "duration" : 273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Este obligatoriu.\",when the input \"Nume\" lost focus.",
+      "uid" : "141b9bc278e6a3ba",
+      "parentUid" : "b18f422296a15793b2c6395b36fab4e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363698412,
+        "stop" : 1650363699206,
+        "duration" : 794
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Minim 2 caractere.\", when add just a letter",
+      "uid" : "572ebbb87bc2ff11",
+      "parentUid" : "b18f422296a15793b2c6395b36fab4e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363699207,
+        "stop" : 1650363699836,
+        "duration" : 629
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Minim 2 caractere.Numai litere.\", when add an other character than letters",
+      "uid" : "adfe6b8c5e60fd5e",
+      "parentUid" : "b18f422296a15793b2c6395b36fab4e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363699837,
+        "stop" : 1650363700430,
+        "duration" : 593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have validation message \"Numai litere.\", when add in input name any others characters than letters",
+      "uid" : "1d9c30c175b15b7c",
+      "parentUid" : "b18f422296a15793b2c6395b36fab4e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363700430,
+        "stop" : 1650363701055,
+        "duration" : 625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have input value \"Cepraga\" and ",
+      "uid" : "32aa51ed7f45b131",
+      "parentUid" : "b18f422296a15793b2c6395b36fab4e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363701055,
+        "stop" : 1650363701394,
+        "duration" : 339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "b18f422296a15793b2c6395b36fab4e4"
+  }, {
+    "name" : "Open page and add Phone Number",
+    "children" : [ {
+      "name" : "Should have the correct page title",
+      "uid" : "a9ea8ee77a2be82d",
+      "parentUid" : "505c892547909993f337bac22c249c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363706528,
+        "stop" : 1650363717257,
+        "duration" : 10729
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should have an input phone number and verify if it is disabled ",
+      "uid" : "28fa45fb900aa8f9",
+      "parentUid" : "505c892547909993f337bac22c249c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363717283,
+        "stop" : 1650363717751,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should check checkbox \"Protectia date\"",
+      "uid" : "9feccae0b9997710",
+      "parentUid" : "505c892547909993f337bac22c249c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363717752,
+        "stop" : 1650363720227,
+        "duration" : 2475
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have a validation message",
+      "uid" : "5810fa6e8ee065da",
+      "parentUid" : "505c892547909993f337bac22c249c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363720228,
+        "stop" : 1650363721409,
+        "duration" : 1181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should add a phone number valid",
+      "uid" : "ab450f3c2da7a18e",
+      "parentUid" : "505c892547909993f337bac22c249c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363721410,
+        "stop" : 1650363722205,
+        "duration" : 795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "505c892547909993f337bac22c249c2a"
+  }, {
+    "name" : "Select the location and time",
+    "children" : [ {
+      "name" : "Should have the correct page title",
+      "uid" : "c828148f65963fec",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363727006,
+        "stop" : 1650363737577,
+        "duration" : 10571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should find the input location",
+      "uid" : "97afc635904c3846",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363737582,
+        "stop" : 1650363738205,
+        "duration" : 623
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if is displayed \"Alege locatia...\"",
+      "uid" : "747206bc239e6a8f",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363738206,
+        "stop" : 1650363738356,
+        "duration" : 150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if is displayed the list of localities",
+      "uid" : "77d95b40a13a10cf",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363738356,
+        "stop" : 1650363740837,
+        "duration" : 2481
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if are existing a list of leters and can select \"I\"",
+      "uid" : "679e8d2b629d06b9",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363740838,
+        "stop" : 1650363741465,
+        "duration" : 627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Check if there is 2 locations whith leter \"I\"",
+      "uid" : "c78d6acbde488d17",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363741466,
+        "stop" : 1650363741619,
+        "duration" : 153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if is selected city \"Iasi\"",
+      "uid" : "b4cef21a741b77d3",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363741619,
+        "stop" : 1650363742502,
+        "duration" : 883
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Check if the user can select one person from the list",
+      "uid" : "c923de2c2355cb15",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363742503,
+        "stop" : 1650363743236,
+        "duration" : 733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Check how many months is displayed and choose the first one, otherwise you may see the message \"Nu mai sunt locuri disponibile.\"",
+      "uid" : "d649dde87cf5a71c",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363743239,
+        "stop" : 1650363744036,
+        "duration" : 797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Select first available day",
+      "uid" : "5103f43b72556206",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363744037,
+        "stop" : 1650363744651,
+        "duration" : 614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Choose last available hour",
+      "uid" : "5158f8b5d2603143",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363744651,
+        "stop" : 1650363745733,
+        "duration" : 1082
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if exist button \"Alege\" and you can it select",
+      "uid" : "219b7a972116780d",
+      "parentUid" : "37eed71dbbc61f29c7674bf1f5bf18f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363745734,
+        "stop" : 1650363752935,
+        "duration" : 7201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "37eed71dbbc61f29c7674bf1f5bf18f6"
+  }, {
+    "name" : "Select the type of document",
+    "children" : [ {
+      "name" : "Should have the correct page title",
+      "uid" : "7bd9a7d77b2810af",
+      "parentUid" : "e208212b2e78044bf0630609d184790e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363757997,
+        "stop" : 1650363768896,
+        "duration" : 10899
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should detect the select \"Tipul de document\" and click on it ",
+      "uid" : "69f6fad2e9dcd426",
+      "parentUid" : "e208212b2e78044bf0630609d184790e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363768898,
+        "stop" : 1650363769522,
+        "duration" : 624
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if the list has 8 options ",
+      "uid" : "a315cdd411334bdf",
+      "parentUid" : "e208212b2e78044bf0630609d184790e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363769523,
+        "stop" : 1650363769917,
+        "duration" : 394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should find and select \"pasaport simplu electronic\"",
+      "uid" : "d0c3b4ef8134c1c4",
+      "parentUid" : "e208212b2e78044bf0630609d184790e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363769929,
+        "stop" : 1650363770317,
+        "duration" : 388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if is displayed validation message, when the user select first option \"Tipul de document .....\" ",
+      "uid" : "bda436840b11807a",
+      "parentUid" : "e208212b2e78044bf0630609d184790e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363770317,
+        "stop" : 1650363771400,
+        "duration" : 1083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "e208212b2e78044bf0630609d184790e"
+  }, {
+    "name" : "Smooke Test",
+    "children" : [ {
+      "name" : "Should access page \"epasapoarte.ro\" ",
+      "uid" : "d20c08d2925bc0bd",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363776040,
+        "stop" : 1650363786906,
+        "duration" : 10866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Find the button \"Rezerva\", and verify if it is not clickable,when the user does`t add all credentials",
+      "uid" : "3f76f83ad185d6e",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363786907,
+        "stop" : 1650363789393,
+        "duration" : 2486
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have value \"Abc\" in input-\"Nume\" ",
+      "uid" : "de7745b0b245d3c4",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363789394,
+        "stop" : 1650363789975,
+        "duration" : 581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have value \"Clm\" in input-\"Prenume\" ",
+      "uid" : "bf5b0d8e132b1b92",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363789976,
+        "stop" : 1650363794462,
+        "duration" : 4486
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should add a valid phone number",
+      "uid" : "56b46c858212245b",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363794462,
+        "stop" : 1650363799164,
+        "duration" : 4702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should have value \"abcdf@gmail.mom\" in input-\"Email1 and Email2\"",
+      "uid" : "d90310ccca20d70b",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363799164,
+        "stop" : 1650363802337,
+        "duration" : 3173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Should find and select \"pasaport simplu electronic\"",
+      "uid" : "9b598311962db7bb",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363802337,
+        "stop" : 1650363802758,
+        "duration" : 421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if is displayed \"Alege locatia...\"",
+      "uid" : "62d8844a9353ffc6",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363802762,
+        "stop" : 1650363802951,
+        "duration" : 189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if are existing a list of leters and can select \"I\"",
+      "uid" : "9136f0d0b8703750",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363802952,
+        "stop" : 1650363804098,
+        "duration" : 1146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Check if there is 2 locations whith leter \"I\"",
+      "uid" : "53f09424b22a6130",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363804099,
+        "stop" : 1650363804254,
+        "duration" : 155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if is selected city \"Iasi\"",
+      "uid" : "27bffb97e78f8788",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363804268,
+        "stop" : 1650363804592,
+        "duration" : 324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Check if the user can select one person from the list",
+      "uid" : "f28e23d1e41d87bc",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363804592,
+        "stop" : 1650363804789,
+        "duration" : 197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Check how many months is displayed and choose the first one, otherwise you may see the message \"Nu mai sunt locuri disponibile.\"",
+      "uid" : "9b62154befe9db01",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363804790,
+        "stop" : 1650363806146,
+        "duration" : 1356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Select first available day",
+      "uid" : "91d4736214f7cb14",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363806148,
+        "stop" : 1650363806792,
+        "duration" : 644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Choose last available hour",
+      "uid" : "8db5823c604b0535",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363806793,
+        "stop" : 1650363807795,
+        "duration" : 1002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Verify if exist button \"Alege\" and you can it select",
+      "uid" : "5b76ed66540ab021",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363807796,
+        "stop" : 1650363808309,
+        "duration" : 513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Find the button \"Rezerva\", and verify if it is clickable,when user add the correct credentials",
+      "uid" : "e54831f10e2ce0",
+      "parentUid" : "882cc6b7146214a167f7a1e6c0ca3207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363808309,
+        "stop" : 1650363811450,
+        "duration" : 3141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "882cc6b7146214a167f7a1e6c0ca3207"
+  } ],
+  "name" : "suites"
+}

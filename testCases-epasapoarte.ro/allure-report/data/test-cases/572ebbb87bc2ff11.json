@@ -1,0 +1,62 @@
+{
+  "uid" : "572ebbb87bc2ff11",
+  "name" : "Should have validation message \"Minim 2 caractere.\", when add just a letter",
+  "fullName" : "Set an input value for name.Should have validation message \"Minim 2 caractere.\", when add just a letter",
+  "historyId" : "3d43e28ae1c9c796812de8d39cd52fb3",
+  "time" : {
+    "start" : 1650363699207,
+    "stop" : 1650363699836,
+    "duration" : 629
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have validation message \"Minim 2 caractere.\", when add just a letter"
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "572ebbb87bc2ff11.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

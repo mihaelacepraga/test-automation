@@ -1,0 +1,62 @@
+{
+  "uid" : "a1eb9f4ea07e6091",
+  "name" : "Should detect if input \"Nume\" are existing",
+  "fullName" : "Set an input value for name.Should detect if input \"Nume\" are existing",
+  "historyId" : "7c583130e60b0044680bb30a61326dcf",
+  "time" : {
+    "start" : 1650363698138,
+    "stop" : 1650363698411,
+    "duration" : 273
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should detect if input \"Nume\" are existing"
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1eb9f4ea07e6091.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

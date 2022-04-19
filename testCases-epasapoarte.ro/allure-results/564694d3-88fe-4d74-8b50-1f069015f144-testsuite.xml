@@ -1,0 +1,245 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650363776036' stop='1650363811453'>
+    <name>Smooke Test</name>
+    <title>Smooke Test</title>
+    <test-cases>
+        <test-case start='1650363776040' status='passed' stop='1650363786906'>
+            <name>Should access page "epasapoarte.ro" </name>
+            <title>Should access page "epasapoarte.ro" </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363786907' status='passed' stop='1650363789393'>
+            <name>Find the button "Rezerva", and verify if it is not clickable,when the user does`t add all credentials</name>
+            <title>Find the button "Rezerva", and verify if it is not clickable,when the user does`t add all credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363789394' status='passed' stop='1650363789975'>
+            <name>Should have value "Abc" in input-"Nume" </name>
+            <title>Should have value "Abc" in input-"Nume" </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363789976' status='passed' stop='1650363794462'>
+            <name>Should have value "Clm" in input-"Prenume" </name>
+            <title>Should have value "Clm" in input-"Prenume" </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363794462' status='passed' stop='1650363799164'>
+            <name>Should add a valid phone number</name>
+            <title>Should add a valid phone number</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363799164' status='passed' stop='1650363802337'>
+            <name>Should have value "abcdf@gmail.mom" in input-"Email1 and Email2"</name>
+            <title>Should have value "abcdf@gmail.mom" in input-"Email1 and Email2"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363802337' status='passed' stop='1650363802758'>
+            <name>Should find and select "pasaport simplu electronic"</name>
+            <title>Should find and select "pasaport simplu electronic"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363802762' status='passed' stop='1650363802951'>
+            <name>Verify if is displayed "Alege locatia..."</name>
+            <title>Verify if is displayed "Alege locatia..."</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363802952' status='passed' stop='1650363804098'>
+            <name>Verify if are existing a list of leters and can select "I"</name>
+            <title>Verify if are existing a list of leters and can select "I"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363804099' status='passed' stop='1650363804254'>
+            <name>Check if there is 2 locations whith leter "I"</name>
+            <title>Check if there is 2 locations whith leter "I"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363804268' status='passed' stop='1650363804592'>
+            <name>Verify if is selected city "Iasi"</name>
+            <title>Verify if is selected city "Iasi"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363804592' status='passed' stop='1650363804789'>
+            <name>Check if the user can select one person from the list</name>
+            <title>Check if the user can select one person from the list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363804790' status='passed' stop='1650363806146'>
+            <name>Check how many months is displayed and choose the first one, otherwise you may see the message "Nu mai sunt locuri disponibile."</name>
+            <title>Check how many months is displayed and choose the first one, otherwise you may see the message "Nu mai sunt locuri disponibile."</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363806148' status='passed' stop='1650363806792'>
+            <name>Select first available day</name>
+            <title>Select first available day</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363806793' status='passed' stop='1650363807795'>
+            <name>Choose last available hour</name>
+            <title>Choose last available hour</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363807796' status='passed' stop='1650363808309'>
+            <name>Verify if exist button "Alege" and you can it select</name>
+            <title>Verify if exist button "Alege" and you can it select</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363808309' status='passed' stop='1650363811450'>
+            <name>Find the button "Rezerva", and verify if it is clickable,when user add the correct credentials</name>
+            <title>Find the button "Rezerva", and verify if it is clickable,when user add the correct credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

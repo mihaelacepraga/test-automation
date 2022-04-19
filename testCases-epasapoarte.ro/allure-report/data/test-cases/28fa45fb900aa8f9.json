@@ -1,0 +1,62 @@
+{
+  "uid" : "28fa45fb900aa8f9",
+  "name" : "should have an input phone number and verify if it is disabled ",
+  "fullName" : "Open page and add Phone Number.should have an input phone number and verify if it is disabled ",
+  "historyId" : "b5480bdd8b6aaa506a7154bd4e66f81b",
+  "time" : {
+    "start" : 1650363717283,
+    "stop" : 1650363717751,
+    "duration" : 468
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "testClass",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have an input phone number and verify if it is disabled "
+  }, {
+    "name" : "package",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28fa45fb900aa8f9.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

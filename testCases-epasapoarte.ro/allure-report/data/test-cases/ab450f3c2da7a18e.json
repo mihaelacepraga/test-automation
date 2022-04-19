@@ -1,0 +1,62 @@
+{
+  "uid" : "ab450f3c2da7a18e",
+  "name" : "Should add a phone number valid",
+  "fullName" : "Open page and add Phone Number.Should add a phone number valid",
+  "historyId" : "314c221b30ab477094e41b03591fd386",
+  "time" : {
+    "start" : 1650363721410,
+    "stop" : 1650363722205,
+    "duration" : 795
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "testClass",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should add a phone number valid"
+  }, {
+    "name" : "package",
+    "value" : "Open page and add Phone Number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab450f3c2da7a18e.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

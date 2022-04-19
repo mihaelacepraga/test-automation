@@ -1,0 +1,62 @@
+{
+  "uid" : "77d95b40a13a10cf",
+  "name" : "Verify if is displayed the list of localities",
+  "fullName" : "Select the location and time.Verify if is displayed the list of localities",
+  "historyId" : "3870dbc1eca904b7a27650c6cf07e958",
+  "time" : {
+    "start" : 1650363738356,
+    "stop" : 1650363740837,
+    "duration" : 2481
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testClass",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify if is displayed the list of localities"
+  }, {
+    "name" : "package",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77d95b40a13a10cf.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

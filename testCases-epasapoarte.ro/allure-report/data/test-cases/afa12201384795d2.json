@@ -1,0 +1,62 @@
+{
+  "uid" : "afa12201384795d2",
+  "name" : "Should have validation message \"Este obligatoriu.",
+  "fullName" : "Set an input value for email and confirm it.Should have validation message \"Este obligatoriu.",
+  "historyId" : "32db731e79dcca70cfe160c1f1ed9521",
+  "time" : {
+    "start" : 1650363646466,
+    "stop" : 1650363647383,
+    "duration" : 917
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have validation message \"Este obligatoriu."
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afa12201384795d2.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

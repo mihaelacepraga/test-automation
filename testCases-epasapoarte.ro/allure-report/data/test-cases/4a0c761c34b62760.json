@@ -1,0 +1,62 @@
+{
+  "uid" : "4a0c761c34b62760",
+  "name" : "Should have validation message \"Nu coincide cu anteriorul.Format email invalid.",
+  "fullName" : "Set an input value for email and confirm it.Should have validation message \"Nu coincide cu anteriorul.Format email invalid.",
+  "historyId" : "54a1737659b22b8603ed32495d5383ce",
+  "time" : {
+    "start" : 1650363660744,
+    "stop" : 1650363661231,
+    "duration" : 487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have validation message \"Nu coincide cu anteriorul.Format email invalid."
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for email and confirm it"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a0c761c34b62760.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

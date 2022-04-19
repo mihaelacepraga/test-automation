@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650363757995' stop='1650363771402'>
+    <name>Select the type of document</name>
+    <title>Select the type of document</title>
+    <test-cases>
+        <test-case start='1650363757997' status='passed' stop='1650363768896'>
+            <name>Should have the correct page title</name>
+            <title>Should have the correct page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363768898' status='passed' stop='1650363769522'>
+            <name>Should detect the select "Tipul de document" and click on it </name>
+            <title>Should detect the select "Tipul de document" and click on it </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363769523' status='passed' stop='1650363769917'>
+            <name>Verify if the list has 8 options </name>
+            <title>Verify if the list has 8 options </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363769929' status='passed' stop='1650363770317'>
+            <name>Should find and select "pasaport simplu electronic"</name>
+            <title>Should find and select "pasaport simplu electronic"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363770317' status='passed' stop='1650363771400'>
+            <name>Verify if is displayed validation message, when the user select first option "Tipul de document ....." </name>
+            <title>Verify if is displayed validation message, when the user select first option "Tipul de document ....." </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

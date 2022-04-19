@@ -1,0 +1,62 @@
+{
+  "uid" : "bba9163c4e93bb34",
+  "name" : "Should have the correct page title",
+  "fullName" : "Open home page and check if it has correct title.Should have the correct page title",
+  "historyId" : "6d8dc02f6877f52ea6e88bbfa4e3a2b",
+  "time" : {
+    "start" : 1650363617108,
+    "stop" : 1650363627937,
+    "duration" : 10829
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open home page and check if it has correct title"
+  }, {
+    "name" : "testClass",
+    "value" : "Open home page and check if it has correct title"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have the correct page title"
+  }, {
+    "name" : "package",
+    "value" : "Open home page and check if it has correct title"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bba9163c4e93bb34.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

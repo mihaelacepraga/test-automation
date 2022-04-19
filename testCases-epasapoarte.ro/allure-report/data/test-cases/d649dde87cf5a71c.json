@@ -1,0 +1,62 @@
+{
+  "uid" : "d649dde87cf5a71c",
+  "name" : "Check how many months is displayed and choose the first one, otherwise you may see the message \"Nu mai sunt locuri disponibile.\"",
+  "fullName" : "Select the location and time.Check how many months is displayed and choose the first one, otherwise you may see the message \"Nu mai sunt locuri disponibile.\"",
+  "historyId" : "b57a918293efedd299a421810c9cc8aa",
+  "time" : {
+    "start" : 1650363743239,
+    "stop" : 1650363744036,
+    "duration" : 797
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testClass",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check how many months is displayed and choose the first one, otherwise you may see the message \"Nu mai sunt locuri disponibile.\""
+  }, {
+    "name" : "package",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d649dde87cf5a71c.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

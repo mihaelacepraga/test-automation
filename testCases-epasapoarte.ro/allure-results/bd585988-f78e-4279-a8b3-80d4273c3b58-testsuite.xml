@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650363727000' stop='1650363752937'>
+    <name>Select the location and time</name>
+    <title>Select the location and time</title>
+    <test-cases>
+        <test-case start='1650363727006' status='passed' stop='1650363737577'>
+            <name>Should have the correct page title</name>
+            <title>Should have the correct page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363737582' status='passed' stop='1650363738205'>
+            <name>Should find the input location</name>
+            <title>Should find the input location</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363738206' status='passed' stop='1650363738356'>
+            <name>Verify if is displayed "Alege locatia..."</name>
+            <title>Verify if is displayed "Alege locatia..."</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363738356' status='passed' stop='1650363740837'>
+            <name>Verify if is displayed the list of localities</name>
+            <title>Verify if is displayed the list of localities</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363740838' status='passed' stop='1650363741465'>
+            <name>Verify if are existing a list of leters and can select "I"</name>
+            <title>Verify if are existing a list of leters and can select "I"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363741466' status='passed' stop='1650363741619'>
+            <name>Check if there is 2 locations whith leter "I"</name>
+            <title>Check if there is 2 locations whith leter "I"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363741619' status='passed' stop='1650363742502'>
+            <name>Verify if is selected city "Iasi"</name>
+            <title>Verify if is selected city "Iasi"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363742503' status='passed' stop='1650363743236'>
+            <name>Check if the user can select one person from the list</name>
+            <title>Check if the user can select one person from the list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363743239' status='passed' stop='1650363744036'>
+            <name>Check how many months is displayed and choose the first one, otherwise you may see the message "Nu mai sunt locuri disponibile."</name>
+            <title>Check how many months is displayed and choose the first one, otherwise you may see the message "Nu mai sunt locuri disponibile."</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363744037' status='passed' stop='1650363744651'>
+            <name>Select first available day</name>
+            <title>Select first available day</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363744651' status='passed' stop='1650363745733'>
+            <name>Choose last available hour</name>
+            <title>Choose last available hour</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363745734' status='passed' stop='1650363752935'>
+            <name>Verify if exist button "Alege" and you can it select</name>
+            <title>Verify if exist button "Alege" and you can it select</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

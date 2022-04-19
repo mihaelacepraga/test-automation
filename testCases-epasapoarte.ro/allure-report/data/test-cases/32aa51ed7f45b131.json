@@ -1,0 +1,62 @@
+{
+  "uid" : "32aa51ed7f45b131",
+  "name" : "Should have input value \"Cepraga\" and ",
+  "fullName" : "Set an input value for name.Should have input value \"Cepraga\" and ",
+  "historyId" : "18259ac95eb408eccf2efe984927d005",
+  "time" : {
+    "start" : 1650363701055,
+    "stop" : 1650363701394,
+    "duration" : 339
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testClass",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have input value \"Cepraga\" and "
+  }, {
+    "name" : "package",
+    "value" : "Set an input value for name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32aa51ed7f45b131.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

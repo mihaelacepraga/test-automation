@@ -1,0 +1,62 @@
+{
+  "uid" : "219b7a972116780d",
+  "name" : "Verify if exist button \"Alege\" and you can it select",
+  "fullName" : "Select the location and time.Verify if exist button \"Alege\" and you can it select",
+  "historyId" : "18b4cc8b2be64bdb10bcb1b10df6eb8e",
+  "time" : {
+    "start" : 1650363745734,
+    "stop" : 1650363752935,
+    "duration" : 7201
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testClass",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify if exist button \"Alege\" and you can it select"
+  }, {
+    "name" : "package",
+    "value" : "Select the location and time"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "219b7a972116780d.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

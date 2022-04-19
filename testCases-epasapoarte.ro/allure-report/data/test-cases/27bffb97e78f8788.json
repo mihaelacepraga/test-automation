@@ -1,0 +1,62 @@
+{
+  "uid" : "27bffb97e78f8788",
+  "name" : "Verify if is selected city \"Iasi\"",
+  "fullName" : "Smooke Test.Verify if is selected city \"Iasi\"",
+  "historyId" : "75573d1ca3b2c8254497ece3dc86fbcc",
+  "time" : {
+    "start" : 1650363804268,
+    "stop" : 1650363804592,
+    "duration" : 324
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify if is selected city \"Iasi\""
+  }, {
+    "name" : "package",
+    "value" : "Smooke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27bffb97e78f8788.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

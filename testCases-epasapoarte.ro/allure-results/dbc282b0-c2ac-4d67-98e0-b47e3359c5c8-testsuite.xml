@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650363667911' stop='1650363682267'>
+    <name>Set the value for first name</name>
+    <title>Set the value for first name</title>
+    <test-cases>
+        <test-case start='1650363667913' status='passed' stop='1650363678803'>
+            <name>Should have the correct page title</name>
+            <title>Should have the correct page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363678805' status='passed' stop='1650363678998'>
+            <name>Should detect if input "Prenume" are existing</name>
+            <title>Should detect if input "Prenume" are existing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363678998' status='passed' stop='1650363679816'>
+            <name>Should have validation message "Este obligatoriu.",when the input "Prenume" lost focus.</name>
+            <title>Should have validation message "Este obligatoriu.",when the input "Prenume" lost focus.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363679816' status='passed' stop='1650363680458'>
+            <name>Should have validation message "Minim 2 caractere.", when add just a letter</name>
+            <title>Should have validation message "Minim 2 caractere.", when add just a letter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363680459' status='passed' stop='1650363681122'>
+            <name>Should have validation message "Minim 2 caractere.Numai litere.", when add an other character than letters</name>
+            <title>Should have validation message "Minim 2 caractere.Numai litere.", when add an other character than letters</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363681127' status='passed' stop='1650363681890'>
+            <name>Should have validation message "Numai litere.", when add in input name any others characters than letters</name>
+            <title>Should have validation message "Numai litere.", when add in input name any others characters than letters</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650363681890' status='passed' stop='1650363682266'>
+            <name>Should have input value "Andreea"</name>
+            <title>Should have input value "Andreea"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
