@@ -1,4 +1,4 @@
-// import Page from "./page";
+
 const Page = require('./page');
 
 class SearchPage extends Page{
@@ -22,5 +22,5 @@ class SearchPage extends Page{
     }
 
 }
-// export default new SearchPage()
+
 module.exports = new SearchPage();
