@@ -1,3 +1,4 @@
 /testCases-epasapoarte.ro/node_modules
 /testCases-eMag.ro/node_modules
 /testCases-eMag.ro/allure-*
+/testCases-eMag.ro/test/pageobjects/secrets.js
