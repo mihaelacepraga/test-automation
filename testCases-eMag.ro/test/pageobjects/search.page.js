@@ -2,6 +2,7 @@
 const Page = require('./page');
 
 class SearchPage extends Page{
+ 
 
     get searchInput () {
         return $('#searchboxTrigger')};
@@ -17,8 +18,8 @@ class SearchPage extends Page{
         return $('#card_grid').$$('.card-item')[0];
     }
 
-    open() {
-        return super.open('/')
+    async open() {
+        return await super.open('/')
     }
 
 }

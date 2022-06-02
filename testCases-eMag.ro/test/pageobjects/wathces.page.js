@@ -11,7 +11,7 @@ class WatchesPage extends Page{
     };
     
     async open() {
-        return await super.open('/ceasuri-barbati/sd?ref=hp_menu_quick-nav_1696_25&type=subdepartment')
+       await super.open('/ceasuri-barbati/sd?ref=hp_menu_quick-nav_1696_25&type=subdepartment')
     }
     async click(){
         return await this.shopNow.click()

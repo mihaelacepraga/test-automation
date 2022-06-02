@@ -28,18 +28,39 @@ class LoginPage extends Page {
     get inputPass () {
        return $('#user_login_password')
     };
+    get btnContinue () {
+        return $('#user_login_continue')
+    };
+    
+    get btnToken () {
+        
+        return $('[href="https://www.emag.ro/token"]')
+    };
+    
+    get myAccount () {
+        return $('#my_account')
+    };
+    get logAccount () {
+        return $('.custom-dropdown-body span')
+    };
 
+    get btnClose (){
+        return $('body > div.ns-wrap-bottom-right > div > div > button')
+    };
+
+    get logOut () {
+        return $('.js-logout-btn')
+    };
+    
     async open() {
-        await super.open('/user/login')
+        await super.open('/')
     };
     
     async submit (){
         await this.btnSubmit.click()
     };
 
-    // async submit () {
-    //     await this.submitBtn.click()
-    // }
+   
 
 
 
