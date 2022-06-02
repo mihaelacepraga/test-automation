@@ -97,7 +97,7 @@ exports.config = {
     baseUrl: 'https://www.emag.ro/',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 20000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -213,8 +213,9 @@ exports.config = {
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    // beforeTest: function (test, context) {
-    // },
+    beforeTest: function (test, context) {
+        browser.maximizeWindow();
+    },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
